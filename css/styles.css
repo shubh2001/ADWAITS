@@ -1,0 +1,60 @@
+header{
+    background-color: rgb(221, 124, 88);
+    min-height: 700px;
+    padding: 0;
+    margin: 0px 0px 0px 5px;
+    min-width: 98vw;
+    border-bottom: rgb(223, 217, 217) 2px solid;
+    border-top: solid 5px whitesmoke;
+    border-right: whitesmoke 5px solid;
+    z-index: 40;
+}
+body {
+    font-family: Raleway;
+}
+.parallaxVideo {
+    height: 750px;
+    
+}
+ h1 {
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: 800;
+}
+p {
+    font-family: Raleway;
+    font-size: 18px;
+    color: rgb(243, 235, 235);
+    font-weight: 400;
+}
+p > span {
+    font-weight: 600;
+    color: white;
+}
+.parallaxVideo video {
+    width: 100%;
+    z-index: -990;
+    top: -10px;
+    position: fixed;   
+}
+.videoAnimate{
+   transition: all 1000ms linear; 
+   transform: scale(0.30);
+}
+.laptopImg {
+      margin-right: 51.5vw;    
+}
+.laptopImg img {
+    z-index: -999;
+    width: 51.5vw;
+    height: 100vh;
+    top: 10px;
+    /* top: -20px;
+    height: 700px;
+    width: 700px; */
+    position: fixed;
+}
+@font-face {
+    font-family: Raleway;
+    src: url("../raleway.light.ttf");
+}
